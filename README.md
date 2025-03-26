@@ -1,4 +1,3 @@
-
 # SQL Query Viewer
 
 ## 🚀 Overview
@@ -56,6 +55,9 @@ SQL Query Viewer is a React-based web application that allows users to select, e
 - Load Time Observed: ~0.6s (First Contentful Paint)
 - Largest Contentful Paint: ~0.7s
 - Performance Score: 98/100
+- Accessibility: 87/100
+- Best Practices: 93/100
+- SEO: 91/100
 - **Method**:
 
   - Open Chrome DevTools (Ctrl + Shift + I)
