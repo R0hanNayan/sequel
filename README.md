@@ -8,8 +8,8 @@ SQL Query Viewer is a React-based web application that allows users to select, e
 
 - Multi-tab interface for executing multiple queries.
 - Predefined SQL query selection.
-- Editable SQL query editor with real-time updates.
-- Query result table with smooth scrolling and pagination.
+- Resizable and Editable SQL query editor with real-time updates.
+- Query result table with smooth scrolling.
 - Mock data generation for custom queries.
 - Dynamic tab creation and deletion.
 
