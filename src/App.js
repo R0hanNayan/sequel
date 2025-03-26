@@ -8,6 +8,7 @@ import { mockData } from "./data/mockData";
 import { generateDummyData } from "./utils/dataUtils";
 import { useTabs } from "./hooks/useTabs";
 import { Container, Typography, Box } from "@mui/material";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   const { tabs, activeTab, setActiveTab, addNewTab, removeTab, setTabs } = useTabs();
@@ -59,6 +60,7 @@ function App() {
       <QueryResultTable
         data={tabs[activeTab]?.isCustom ? generateDummyData() : mockData[tabs[activeTab]?.selectedQuery]}
       />
+      <Analytics />
     </Container>
   );
 }
