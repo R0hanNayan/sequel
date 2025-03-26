@@ -69,3 +69,11 @@ SQL Query Viewer is a React-based web application that allows users to select, e
 
 - **Efficient Re-Renders:** Avoided unnecessary state updates by ensuring only relevant components re-render.
 - **Minimized DOM Operations:** Used Material-UI's optimized components instead of direct DOM manipulation.
+
+## 📸 Component Diagram
+
+![1742989981114](image/README/1742989981114.png)
+
+## 📸 Flow Diagram
+
+![1742990006974](image/README/1742990006974.png)
