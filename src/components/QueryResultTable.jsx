@@ -93,7 +93,7 @@ const QueryResultTable = ({ data }) => {
                 ))}
               </TableRow>
             </TableHead>
-            
+
             <TableBody>
               {/* Data Rows */}
               {data.map((row, index) => (
