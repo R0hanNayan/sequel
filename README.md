@@ -12,6 +12,7 @@ SQL Query Viewer is a React-based web application that allows users to select, e
 - Query result table with smooth scrolling.
 - Mock data generation for custom queries.
 - Dynamic tab creation and deletion.
+- Navigation Buttons for tables with a lot of columns
 
 ## 🛠 Tech Stack
 
