@@ -1,70 +1,69 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# SQL Query Viewer
 
-## Available Scripts
+## 🚀 Overview
 
-In the project directory, you can run:
+SQL Query Viewer is a React-based web application that allows users to select, edit, and execute SQL queries in a multi-tab interface. The application simulates query execution by displaying mock data, supports tab management, and provides a clean UI using Material-UI.
 
-### `npm start`
+## 🏗 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Multi-tab interface for executing multiple queries.
+- Predefined SQL query selection.
+- Editable SQL query editor with real-time updates.
+- Query result table with smooth scrolling and pagination.
+- Mock data generation for custom queries.
+- Dynamic tab creation and deletion.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠 Tech Stack
 
-### `npm test`
+- **Framework:** React.Js
+- **UI Library:** Material-UI (@mui/material)
+- **State Management:** React Hooks (useState, useEffect, useRef)
+- **Icons:** @mui/icons-material
+- **CSS:** Custom styles with Material-UI's sx prop and CSS
+- **Deployment:** Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Installation & Setup
 
-### `npm run build`
+1. **Clone the repository**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```sh
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    git clone https://github.com/R0hanNayan/sequel.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    cd sequel
 
-### `npm run eject`
+   ```
+2. **Install dependencies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Run the development server**
 
-## Learn More
+```sh
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+## 🛜 Page Load Time Measurement
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Tool Used: Chrome DevTools (Lighthouse Performance Audit)
+- Load Time Observed: ~0.6s (First Contentful Paint)
+- Largest Contentful Paint: ~0.7s
+- Performance Score: 98/100
+- **Method**:
 
-### Analyzing the Bundle Size
+  - Open Chrome DevTools (Ctrl + Shift + I)
+  - Navigate to the Performance tab
+  - Run a Lighthouse audit under the Performance category
+  - Observe the First Contentful Paint (FCP) and Largest Contentful Paint (LCP)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎩 Optimizations for Performance
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Efficient Re-Renders:** Avoided unnecessary state updates by ensuring only relevant components re-render.
+- **Minimized DOM Operations:** Used Material-UI's optimized components instead of direct DOM manipulation.
