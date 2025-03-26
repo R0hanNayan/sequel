@@ -72,8 +72,8 @@ SQL Query Viewer is a React-based web application that allows users to select, e
 
 ## 📸 Component Diagram
 
-![1742989981114](image/README/1742989981114.png)
+![1742990249205](image/README/1742990249205.png)
 
 ## 📸 Flow Diagram
 
-![1742990006974](image/README/1742990006974.png)
+![1742990258125](image/README/1742990258125.png)
